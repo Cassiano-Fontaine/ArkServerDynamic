@@ -1,0 +1,65 @@
+/* Copyright © 2016 RuneRewind */
+/* @author: Pax M */
+/* These are the the public variables that will be visible to everyone */
+
+{
+	/* The name of the game */
+	"name": "RuneRewind",
+	
+	/* Whetever or not we are in beta */
+	"beta": true,
+	
+	/* Whetever or not we are hosting double xp */
+	"doubleXp": false,
+	
+	/* Whetever or not we are hosting double votes rewards */
+	"doubleVotes": false,
+	
+	/* Whetever or not we are hosting double drop rates */
+	"doubleDropRate": false,
+	
+	/* Whetever or not we are hosting double boss points */
+	"doubleBossPoints": false,
+	
+	/* Whetever or not we are hosting double dungeoneering tokens */
+	"doubleDungeoneeringTokens": false,
+	
+	/* The topic id for the latest announcement/update */
+	"topicId": 3,
+	
+	/* The topic title for the latest announcement/update */
+	"topicTitle": "Pre-Release: Beta's",
+	
+	/* The world 1 that server connects to (free-to-play) */
+	"world1": "world1.runerewind.com",
+	
+	/* The world 2 that server connects to (development) */
+	"world2": "world2.runerewind.com",
+	
+	/* The world 3 that server connects to (localhost) */
+	"world3": "localhost",
+	
+	/* All worlds are connected to one login engine */
+	"loginEngine": "world1.runerewind.com",
+	
+	/* For the connection between HTTP Java server and HTTP web server */
+	"IPV6": "0:0:0:0:0:0:0:1",
+	
+	/* Encrypted secret to launch the engine, with BCrypt */
+	"startupSecret": "$2a$13$SBjJ4pkLP8JIGj9Zqx0jxuQgiRf0vNopOqRRg7gUl4AlVuXCTv2G.",
+	
+	/* The build/revision of the server */
+	"major": 876,
+	
+	/* The sub-build/revision of the server */
+	"minor": 1,
+	
+	/* The build number of this client */
+	"buildVersion": 1,
+	
+	/* Location of the cache storage*/
+	"cache": "rewindcache",
+	
+	/* Location of the gamepack */
+	"gamepack": "rewindcache/rewind_gamepack_gY5dWnFB2jzUPAmuycnkmzlhn0jPcYxM_2822641.jar"
+}
